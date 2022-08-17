@@ -1,0 +1,16 @@
+{
+  "name": "speakershop",
+  "version": "1.0.0",
+  "description": "Just like that",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "rm -rf dist && parcel build index.html --public-url ./",
+    "publish": "gh-pages -d dist"
+  },
+  "author": "dci",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  }
+}
